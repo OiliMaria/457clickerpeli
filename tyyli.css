@@ -1,0 +1,100 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-family: Lilita One, sans-serif;
+    font-size:500%;
+}
+
+body {
+    max-width: max-content;
+    margin: auto;
+    
+    
+    }
+
+#text {
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#selite {
+    background-color: blanchedalmond;
+    margin: 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#button1 {
+    background-color:powderblue;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 16px;
+    border: none;
+    color:blueviolet;
+    font-weight: bolder;
+    cursor:pointer;
+    box-shadow: 0 9px rgb(153, 178, 202);
+    display: inline-block;
+}
+
+#button1:hover {background-color:rgb(241, 183, 233)}
+
+#button1:active {
+    box-shadow: 0 5px rgb(153, 178, 202);
+    transform: translateY(4px);
+    background-color:rgb(241, 183, 233);
+}
+
+#button2 {
+    background-color: powderblue;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 16px;
+    border: none;
+    color:blueviolet;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0 9px rgb(153, 178, 202);
+    display: inline-block;
+
+}
+
+#button2:hover {background-color: rgb(241, 183, 233)}
+
+#button2:active {
+    box-shadow: 0 5px rgb(153, 178, 202);
+    transform: translateY(4px);
+    background-color: rgb(241, 183, 233);
+}
+
+#button3 {
+    background-color: powderblue;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 16px;
+    border: none;
+    color:blueviolet;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0 9px rgb(153, 178, 202);
+    display: inline-block;
+}
+
+#button3:hover {background-color: rgb(241, 183, 233)}
+
+#button3:active {
+    box-shadow: 0 5px rgb(153, 178, 202);
+    transform: translateY(4px);
+    background-color: rgb(421, 183, 233);
+}

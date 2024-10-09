@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url('tausta.jpg');
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker-peli</title>
+
+    <link rel="stylesheet" href="tyyli.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Donitsi 🍩 Klikkeri</h1>
+
+    <p id="text">Donitseja: <span id="no_of_donuts">0</span>
+       Leipurit: <span id="no_of_workers">0</span> 
+       Rahaa: <span id="no_of_money">0 €</span>  </p>
+       
+
+    <button onclick="makeDonuts()" id="button1">Leivo donitsi</button>
+    <button onclick="hireWorker()" id="button2">Palkkaa leipuri € <span id="cow">10</span></button>
+    <button onclick="convertToMoney()" id="button3">Myy donitseja € <span id="sell">1 €</span></button>
+    <br>
+    <br>
+    <p id="selite"><b>Leivo donitsi: </b>Yksi klikkaus lisää donitsien määrää yhdellä. <br><br>
+    <b>Myy donitseja: </b>Myy kaikki donitsit kerralla kymmenen seteissä, hintaan 1 € / setti. <br><br>
+        <b>Palkkaa leipuri: </b>Kun olet saanut kasaan vähintään 10 €, voit palkata yhden leipurin, joka <br>
+    tekee automaattisesti yhden donitsin / sekunti. Mitä enemmän leipureita, sitä enemmän donitseja!<br><br><br>
+
+    &copy; Oili-Maria Väärälä 2024</p> 
+    
+    
+    
+    
+
+    <script src="clicker.js"></script>
+    
+</body>
+</html>
